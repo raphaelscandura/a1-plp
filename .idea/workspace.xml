@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffdbcb12-7a0f-4228-a992-7e295a112a74" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/paradigmas/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/a1-plp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-c/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/Exercicios-Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/out/production/Exercicios-Java/exercicios/java/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/out/production/Exercicios-Java/metodos/atleta/Atleta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/src/exercicios/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/src/metodos/atleta/Atleta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/exercicios-java/src/sistemaDeNotas/NotasGinastica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigmas/vcs.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="ffdbcb12-7a0f-4228-a992-7e295a112a74" name="Changes" comment="Teste" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Java/ex-1" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,6 +34,14 @@
       <option name="presentableId" value="Default" />
       <updated>1633563449618</updated>
     </task>
+    <task id="LOCAL-00001" summary="Teste">
+      <created>1633565977760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633565977760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,5 +55,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste" />
   </component>
 </project>
