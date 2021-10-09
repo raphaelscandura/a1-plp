@@ -4,8 +4,6 @@ import exercicios.java.atleta.Atleta;
 import exercicios.java.esporte.ArremessoDePeso;
 import exercicios.java.esporte.GinasticaArtistica;
 
-import java.util.Random;
-import java.util.Scanner;
 import java.lang.Math;
 
 public class Main {

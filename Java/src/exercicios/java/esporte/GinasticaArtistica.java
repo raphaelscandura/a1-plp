@@ -3,7 +3,6 @@ package exercicios.java.esporte;
 import exercicios.java.atleta.Atleta;
 
 import java.util.Arrays;
-import java.util.Arrays;
 
 public class GinasticaArtistica extends Esporte{
     private int notasRecebidas = 5;
