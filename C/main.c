@@ -31,7 +31,24 @@ void jogarGinasticaArtistica(){
 
 
 void jogarArremessoDePeso(){
+    int melhoresArremessos[QUANTIDADE_DE_ATLETAS];
+    int arremessoDeDesempate[QUANTIDADE_DE_ATLETAS];
 
+    for (int i = 0; i < QUANTIDADE_DE_ATLETAS; i++) {// i atletas tem seus turnos arremessando
+        int distancias[QUANTIDADE_DE_ARREMESSOS];
+        printf("Arremessos do atleta %d:\n", i+1);
+        for (int j = 0; j < QUANTIDADE_DE_ARREMESSOS; j++) {// Cada atleta tem j arremessos
+            printf("\n%d: ", j+1);
+            scanf(" %d", &distancias[j]);
+        }
+        ordenarDistancias(distancias, QUANTIDADE_DE_ARREMESSOS);// Ordena o vetor de distancias dos arremessos
+        printArray(distancias, QUANTIDADE_DE_ARREMESSOS);
+        melhoresArremessos[i] = pegarMaiorDistancia(distancias, QUANTIDADE_DE_ARREMESSOS);
+        arremessoDeDesempate[i] = pegarSegundaMaiorDistancia(distancias, QUANTIDADE_DE_ARREMESSOS);
+        printf("\nMelhor arremesso do atleta %d: %d, "
+               "segunda melhor: %d\n", i+1, melhoresArremessos[i], arremessoDeDesempate[i]);
+    }
+    printf("O vencedor eh o atleta de numero: %d", criterioDeDesempate(melhoresArremessos, QUANTIDADE_DE_ATLETAS, arremessoDeDesempate));
 }
 
 //Função principal, executa os comandos de seleção de jogo (menu principal)
