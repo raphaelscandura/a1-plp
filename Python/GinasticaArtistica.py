@@ -1,7 +1,6 @@
 from Esporte import *
 
 
-
 class GinasticaArtistica(Esporte):
 
   def __init__(self):
