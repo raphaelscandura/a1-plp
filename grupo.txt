@@ -1,0 +1,11 @@
+Membros do grupo:
+
+João Vitor Andrade de Araujo - 21377112
+Murillo Monteiro Cardoso - 21393496
+Raphael Scandura da Cunha - 21384134
+Sabrina Fernandes de Sousa -  21399590
+Thiago Gobbo Morango - 21444515
+
+GitHub do projeto(estará privado até o dia da entrega da atividade):
+
+https://github.com/raphaelscandura/a1-plp
