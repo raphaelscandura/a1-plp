@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "ginastica.h"
+#include "arremesso.h"
 
 #define QUANTIDADE_DE_ATLETAS 2
 #define QUANTIDADE_DE_JUIZES 5
+#define QUANTIDADE_DE_ARREMESSOS 3
 
 //Função que executa o jogo de ginastica artística
 void jogarGinasticaArtistica(){
@@ -48,7 +50,8 @@ void jogarArremessoDePeso(){
         printf("\nMelhor arremesso do atleta %d: %d, "
                "segunda melhor: %d\n", i+1, melhoresArremessos[i], arremessoDeDesempate[i]);
     }
-    printf("O vencedor eh o atleta de numero: %d", criterioDeDesempate(melhoresArremessos, QUANTIDADE_DE_ATLETAS, arremessoDeDesempate));
+    printf("O vencedor eh o atleta de numero: %d\n", criterioDeDesempate(melhoresArremessos, QUANTIDADE_DE_ATLETAS, arremessoDeDesempate));
+    system("pause");
 }
 
 //Função principal, executa os comandos de seleção de jogo (menu principal)
@@ -71,6 +74,7 @@ int main(){
         break;
     default:
         printf("Valor invalido, selecione jogo 1 ou jogo 2\n");
+        system("pause");
         break;
     }
 }
