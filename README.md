@@ -15,7 +15,7 @@
   - A aplicação final foi compilada e está disponível no executável "main.exe".
   - Tanto as distâncias na modalidade de arremesso de peso como as notas dos juízes na ginástica artística foram manipuladas como INT, usar esse formato de dado para realizar os testes.
 - II) Um programa em Java, utilizando o paradigma orientado a objetos, que determina o vencedor nas duas modalidades apresentadas acima. **(Valor 2,5)**
-  - Em Java a aplicação gera números aleatórios e realiza os cálculos sem necessidade de input do usuário, apenas executar a main em Java para ver os resultados.
+  - Para testar a aplicação em Java, basta executar a main em Java para ver os resultados, o jogador 1 se chama João e o jogador 2 se chama Murillo.
   - As notas dos juízes e as distâncias dos arremessos foram manipulados como FLOAT, e esse foi o formato usado para realizar os testes.
 - III) Um programa em Python, utilizando o paradigma orientado a objetos, que determina o vencedor nas duas modalidades apresentadas acima. **(Valor 2,5)**
   - Rodar a classe "main.py" no terminal do Python para realizar os testes.
